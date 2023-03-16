@@ -1,0 +1,22 @@
+  <!-- perfil -->
+  <div class="row" id="fila1">
+
+    <div id="banner"><img [src]="usuario.bannerUsuario" alt="banner"></div>
+    <div id="info" padding="10px">
+
+        <img class="perfil" [src]="usuario.imagenUsuario" alt="perfil">
+        
+        <div id="info-datos">
+
+            <h1>{{usuario.nombre}}</h1>
+
+            <p> {{usuario.descUsuario}}</p>
+
+            <p>{{usuario.ubiUsuario}}</p>
+
+            
+            <a class="btn btn-light" id="botones" routerLink="/editarusuario/1" *ngIf="isLogged"><i class="fa fa-pencil"></i></a>
+
+        </div>
+    </div>
+</div>

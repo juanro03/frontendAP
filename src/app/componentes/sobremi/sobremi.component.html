@@ -1,0 +1,18 @@
+
+<div class="row justify-content-between" id="fila3">
+    <div class="col-4">
+        <td><h2>Información personal</h2></td>
+        <td>
+            <button type="button" class="btn btn-success" id="botones" routerLink="/nuevasobremi" *ngIf="isLogged">
+            <a class="nav-link" style="color:white">Añadir</a>
+            </button>
+        </td>
+    </div>
+
+    <li id="sobremi" *ngFor="let me of sobremi">
+        <p>{{me.descSobremi}}</p>
+        <a class="btn btn-light" id="botones" routerLink="/editarsobremi/{{me.idSobremi}}" *ngIf="isLogged"><i class="fa fa-pencil"></i></a>
+        <a class="btn btn-light" id="botones" (click)="delete(me.idSobremi)" *ngIf="isLogged"><i class="fa fa-times" ></i></a>
+        
+    </li> 
+</div>

@@ -1,0 +1,18 @@
+<nav id="navbar" class="navbar ">
+    <form class="container text-center">
+        <div>
+            <a href="https://www.instagram.com/juanpe.roldan/">
+                <i class="btn btn-danger fab fa-instagram"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/juan-pedro-roldan-1b42071b3/">
+                <i class="btn btn-primary fab fa-linkedin-in"></i>
+            </a>
+            
+        </div>
+        <div>
+            <button class="btn btn-light" type="button" (click)="login()" *ngIf="!isLogged">Iniciar Sesión</button>
+            <button class="btn btn-danger" type="button" (click)="logout()" *ngIf="isLogged">Cerrar Sesión</button>
+        </div>
+    </form>
+  </nav>
+

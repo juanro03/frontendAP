@@ -1,0 +1,13 @@
+<div class="container">
+    <div class="row">
+        <div>
+            <form  novalidate (ngSubmit)="onUpdate()" novalidate #f="ngForm">
+                <div class="form-group">
+                    <h2 for="descripcionEdu">Editar estudio:</h2>
+                    <input type="text" class="form-control" id="educacion" name="educacion" [(ngModel)]="edu.descEdu" required>
+                </div>
+                <button class="btn btn-success" id="botones">Actualizar estudio</button>
+            </form>
+        </div>
+    </div>
+</div>

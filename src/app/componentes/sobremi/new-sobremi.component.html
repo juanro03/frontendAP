@@ -1,0 +1,13 @@
+<div class="container">
+    <div class="row">
+        <div>
+            <form (ngSubmit)="onCreate()" novalidate #f="ngForm">
+                <div class="form-group">
+                    <h2 for="descripcionSobremi">Descripción información:</h2>
+                    <input type="text" class="form-control" id="descripcionSobremi" name="descripcionSobremi" [(ngModel)]="descripcionSobremi" required>
+                </div>
+                <button class="btn btn-success" id="botones">Agregar información</button>
+            </form>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,46 @@
+{
+    "facebook": "https://www.facebook.com/juanpedro.roldan.50",
+    "instagram": "https://www.instagram.com/juanpe.roldan/",
+    "twitter": "https://twitter.com/JuaanRoldan",
+    "linkedin": "https://www.linkedin.com/in/juan-pedro-roldan-1b42071b3/",
+
+    "nombre": "Juan Pedro Roldan",
+    "fotoPortada": "../assets/img/banner.jpg",
+    "fotoPerfil": "../assets/img/profileimage.jpg",
+    "descripcion": "Estudiante",  
+    "ubicacion": "La Pampa - Cordoba",
+
+    "descSobremi": "Estudiante de Ingenieria en Sistemas de Informacion. 19 años.",
+
+    "descEstudios":[{
+      "desc": "Ingenieria en Sistemas UTN Facultad Regional Cordoba"
+    },
+    {
+      "desc": "Desarrollo Web Argentina Programa"
+    },
+    {
+      "desc": "Secundario en Instituto Gral. José de San Martín. Alta Italia, La Pampa"
+    }],
+    
+    "descConocimientos": [{
+      "desc": "Python"
+    },
+    {
+      "desc": "HTML, CSS, JavaScript"
+    },
+    {
+      "desc": "Angular"
+    },
+    {
+      "desc": "MySQL, Java, Spring Boot"
+    }],
+
+    "descSkills":[{
+      "titulo": "Resolucion de problemas",
+      "porcentaje": "width: 60%"
+    },
+    {
+      "titulo": "Diseño y Analisis de Sistemas",
+      "porcentaje": "width: 35%"
+    }]
+  }

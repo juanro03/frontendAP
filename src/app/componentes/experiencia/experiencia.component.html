@@ -1,0 +1,19 @@
+<!-- conocimientos -->
+<div class="row justify-content-between" id="fila3">
+    <div class="col-4">
+        <td><h2>Experiencia</h2></td>
+        <td>
+            <button type="button" class="btn btn-success" id="botones" routerLink="/nuevaexp" *ngIf="isLogged">
+            <a class="nav-link" style="color:white">Añadir</a>
+            </button>
+        </td>
+    </div>
+
+    <li id="educacion" *ngFor="let experiencia of exp">
+        <a class="btn btn-light" id="botones" routerLink="/editarexp/{{experiencia.idExp}}" *ngIf="isLogged"><i class="fa fa-pencil"></i></a>
+        <a class="btn btn-light" id="botones" (click)="delete(experiencia.idExp)" *ngIf="isLogged"><i class="fa fa-times" ></i></a>
+        <p>{{experiencia.descExp}}</p>
+    </li> 
+    
+</div>
+

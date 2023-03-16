@@ -1,0 +1,12 @@
+#botoneditar{
+    float: right;
+}
+#botones{
+    margin: 10px;
+}
+
+#edit-habilidad{
+    width: 500px;
+    margin: 10px;
+    align-content: center;
+}

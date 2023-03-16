@@ -1,0 +1,24 @@
+nav {
+    background-color: rgba(116, 116, 116, 0.356);
+    border-radius:10px;
+}
+
+button {
+    margin: 5px;
+}
+
+i {
+    margin:5px;
+}
+
+#formlogin{
+    margin: 10px;
+    width: 30%;
+    float: right;
+}
+
+#btnAceptar{
+    width: 30%;
+    float: right;
+    margin-top: 30px;
+}

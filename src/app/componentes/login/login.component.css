@@ -1,0 +1,14 @@
+#login{
+    background-image: url(../../../assets/img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#form{
+    background-color: rgba(255, 255, 255, 0.459);
+}
+
+button{
+    margin: 10px;
+}

@@ -1,0 +1,7 @@
+{
+    "/*":{
+        "target" : "https://backendargprograma-cm1v.onrender.com",
+        "secure" : false,
+        "logLevel" : "debug"
+    }
+}

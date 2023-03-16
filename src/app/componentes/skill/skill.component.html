@@ -1,0 +1,25 @@
+<!-- hard y soft skills -->
+
+<div class="row justify-content-between" id="fila4">
+    <div class="col-4">
+        <td><h2>Habilidades</h2></td>
+        <td>
+            <button type="button" class="btn btn-success" id="botones" routerLink="/nuevaskill" *ngIf="isLogged">
+            <a class="nav-link" style="color:white">Añadir</a>
+            </button>
+        </td>
+    </div>
+    
+    <div *ngFor="let sk of skill">
+        <div class="col">
+        <a class="btn btn-light" id="botones" routerLink="/editarskill/{{sk.idSkill}}" *ngIf="isLogged"><i class="fa fa-pencil"></i></a>
+        <a class="btn btn-light" id="botones" (click)="delete(sk.idSkill)" *ngIf="isLogged"><i class="fa fa-times" ></i></a>
+        <h5>{{sk.nombre}}</h5>
+        </div>
+        <progress-bar [progress]="(sk.porcentaje)" [color-degraded]="{'0': '#00a2ff7a'}"></progress-bar>
+    </div>
+    
+</div>
+
+<!--<input class="inputtext" id="edit-habilidad" type="text" [(ngModel)]="skills.nombre">
+<input class="inputtext" id="edit-habilidad" type="text"  [(ngModel)]="skills.porcentaje">-->
